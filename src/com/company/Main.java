@@ -50,7 +50,7 @@ public class Main {
                         System.out.println("Nope! Keep on trying!");
                     }
                 }
-            }else if (operation == "multiplication") {
+            } if (operation == "multiplication") {
                 double equationC = Math.log(firstNumber * secondNumber);
                 System.out.println("The multiplication of " + firstNumber + " and " + secondNumber + "= " + equationC);
 
@@ -68,7 +68,7 @@ public class Main {
                             System.out.println("Nope! Keep on trying!");
                         }
                     }
-                }else if (operation == "division") {
+                } if (operation == "division") {
                     double equationD = Math.log(firstNumber / secondNumber);
                     System.out.println("The division of " + firstNumber + " and " + secondNumber + "= " + equationD);
                     while (!correctGuess) {
